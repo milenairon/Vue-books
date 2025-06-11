@@ -1,6 +1,20 @@
-@import './base.css';
+ /* @use 'sass:math'; */
 
-#app {
+ /* config */
+ @import './config/fonts'; 
+ /* @import './config/mixins';  */
+ @import './config/base.css';
+
+  /* components */
+ @import './components/header.css';
+ @import './components/burger-menu.css';
+ @import './components/banner.css';
+ @import './components/slider.css';
+ @import './components/description.css';
+ @import './components/form.css';
+ @import './components/footer.css'; 
+
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -32,4 +46,4 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-}
+} */
