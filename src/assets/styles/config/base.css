@@ -1,27 +1,27 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 html {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 body {
-  background-color: #FFFFFF;
-  overflow-y: hidden;
-  font-family: "Raleway";
-  line-height: 1.5;
-  font-weight: 400;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  letter-spacing: 0.07em;
+    background-color: #FFFFFF;
+    overflow-y: hidden;
+    font-family: "Raleway";
+    line-height: 1.5;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.07em;
 }
 
 h1,
@@ -30,16 +30,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Forum";
-  font-weight: 400;
-  width: fit-content;
-  line-height: 1.5;
-  color: #000000;
+    font-family: "Forum";
+    font-weight: 400;
+    width: fit-content;
+    line-height: 1.5;
+    color: #000000;
 }
 
 h1 {
-  font-size: 6.67rem;
-  text-align: start;
+    font-size: 6.67rem;
+    text-align: start;
 }
 
 h2,
@@ -47,58 +47,65 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 5.33rem;
-  text-align: center;
+    font-size: 5.33rem;
+    text-align: center;
 }
 
 p,
 span {
-  color: #000000;
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 400;
+    color: #000000;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 a {
-  color: #000000;
-  transition: 0.3s;
+    color: #000000;
+    transition: 0.3s;
 }
 
 @media (any-hover: hover) {
-  a:hover {
-    color: #000;
-    text-decoration: none;
-  }
+    a:hover {
+        color: #000;
+        text-decoration: none;
+    }
 }
 
 a[href*="tel:"] {
-  white-space: nowrap;
+    white-space: nowrap;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 section {
-  margin-bottom: 11.67rem;
-  position: relative;
+    margin-bottom: 11.67rem;
+    position: relative;
 }
 
 input:focus {
-  border-color: #1596C1;
+    border-color: #1596C1;
 }
+
 input:focus-visible {
-  outline: none;
-  text-indent: 5px;
+    outline: none;
+    text-indent: 5px;
 }
 
 .main {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .container {
-  max-width: 1300px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-  height: 100%;
-  position: relative;
+    max-width: 1300px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
 }
 
 /* !!! .container_vertical {
@@ -107,75 +114,110 @@ input:focus-visible {
 } */
 
 .text {
-  color: #000000;
-  font-size: 2rem;
-  line-height: 1.5;
+    color: #000000;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.text_l {
+    font-size: 3.5rem;
 }
 
 .text_m {
-  font-size: 3.5rem;
+    font-size: 2.5rem;
 }
+
 .text_s {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
+
 .text_center {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .btn {
-  cursor: pointer;
-  transition: 0.3s;
-  color: #000000;
-  background-color: transparent;
-  font-size: 2.5rem;
-  line-height: 1.5;
-  /* padding: 2.0rem 2.0rem; !!!Переделать */
-  text-transform: uppercase;
-  border: 3px solid #000;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "Forum";
-  width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000000;
+    background-color: transparent;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    /* padding: 2.0rem 2.0rem; !!!Переделать */
+    text-transform: uppercase;
+    border: 3px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Forum";
+    width: fit-content;
 }
+
 @media (any-hover: hover) {
-  .btn:hover {
-    text-decoration: none;
-    border-color: #fff;
-    color: #FFF;
-    background-color: #1596C1;
-  }
+    .btn:hover {
+        text-decoration: none;
+        border-color: #fff;
+        color: #FFF;
+        background-color: #1596C1;
+    }
 }
 
 .btn_inactive {
-  pointer-events: none;
-  opacity: 0.5;
+    pointer-events: none;
+    opacity: 0.5;
 }
 
 .link {
-  color: #fff;
-  text-transform: uppercase;
+    color: #fff;
+    text-transform: none;
+    transition: 0.3s;
 }
 
 @media (any-hover: hover) {
-  .link:hover {
-  color: #000;
-  border-color: #000;
-  }
+    .link:hover {
+        color: #000;
+        border-color: #000;
+    }
 }
 
 .link_accent {
-  color: #000;
+    color: #000;
 }
 
 @media (any-hover: hover) {
-  .link_accent:hover {
-    color: #1596C1;
-  }
+    .link_accent:hover {
+        color: #1596C1;
+    }
 }
 
 .color-accent {
-  color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+/* -------------------------------------------
+ цветной скрол
+ Скроллбары в Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* дорожка */
+*::-webkit-scrollbar-track {
+    background: rgba(0 0 0);
+}
+
+/* плашка */
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(#1596C1, 0.8);
+    border-radius: 3px;
+    border: 2px solid transparent;
+}
+
+
+/* Скроллбары в Firefox  */
+*,
+html * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(#1596C1, 0.8) #fff;
 }

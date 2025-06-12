@@ -1,11 +1,21 @@
 .banner {
     background: url('../../images/background/banner.jpg') no-repeat center / cover;
+    padding: 120px 0 22.1rem;
 }
 
 .banner__container {}
 
 .container {}
 
-.banner__title {}
+.banner__title {
+    text-transform: uppercase;
+    width: 55%;
+    margin: 50px 0 70px;
+}
 
-.banner__link {}
+.banner__link {
+    text-transform: uppercase;
+    padding: 20px;
+    border: 3px solid #fff;
+    display: inline-block;
+}
