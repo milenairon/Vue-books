@@ -1,3 +1,25 @@
-* {
-    color: red;
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 20px 0;
 }
+
+.header__container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__burger-menu {}
+
+.header__burger-menu-content {}
+
+.header__burger-menu-items {}
+
+.header__burger-menu-item {}
+
+.header__burger-menu-link {}

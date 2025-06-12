@@ -1,3 +1,11 @@
-* {
-    color: red;
+.banner {
+    background: url('../../images/background/banner.jpg') no-repeat center / cover;
 }
+
+.banner__container {}
+
+.container {}
+
+.banner__title {}
+
+.banner__link {}

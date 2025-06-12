@@ -1,24 +1,38 @@
 <template>
-
-  <header>
-    
-  </header>
+   <appHeader/>
 
   <main>
-
+    <Banner />
+    <Slider />
+    <Description />
+   <appForm/>
   </main>
 
+   <appFooter/>
 </template>
 
 
-<script setup>
+<script>
+import Header from './components/Header.vue';
+import Banner from './components/Banner.vue';
+import Slider from './components/Slider.vue';
+import Description from './components/Description.vue';
+import Form from './components/Form.vue';
+import Footer from './components/Footer.vue';
 
+export default {
+    components: {
+      appHeader: Header,
+      Banner,
+      Slider,
+      Description,
+      appForm: Form,
+      appFooter: Footer,
+    },
+    // data() {    
+    // },
+    // methods: {
+    // }
+}
 </script>
 
-
-<!-- <style scoped>
-
-
-/* @media (min-width: 1024px) {
-} */
-</style> -->
