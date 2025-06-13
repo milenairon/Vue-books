@@ -1,3 +1,46 @@
-* {
-    color: red;
+.footer {
+    background-color: #1596C1;
 }
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer__box {
+
+}
+
+.footer__logo {
+    flex: 0 0 auto;
+    margin-right: 8rem;
+}
+
+@media (any-hover: hover) {
+    .footer__logo:hover svg path {
+        fill: #000;
+        transition: 0.3s;
+    }
+}
+
+.footer__logo-icon {
+    height: 80px;
+}
+
+.footer__nav {}
+
+.footer__nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 115px;
+    margin-right: 30px;
+}
+
+.footer__nav-item {}
+
+.footer__nav-link {}

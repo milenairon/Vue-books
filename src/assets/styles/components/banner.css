@@ -8,13 +8,13 @@
 .container {}
 
 .banner__title {
-    width: 55%;
+    width: 60%;
     margin: 50px 0 70px;
 }
 
 .banner__link {
     text-transform: uppercase;
-    padding: 20px;
+    padding: 5px 45px;
     border: 3px solid #fff;
     display: inline-block;
 }

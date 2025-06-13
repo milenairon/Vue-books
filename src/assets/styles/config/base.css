@@ -21,7 +21,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    letter-spacing: 0.07em;
 }
 
 h1,
@@ -36,6 +35,7 @@ h6 {
     line-height: 1.5;
     color: #000000;
     text-transform: uppercase;
+    letter-spacing: 0.07em
 }
 
 h1 {
@@ -58,11 +58,13 @@ span {
     font-size: 2rem;
     line-height: 1.5;
     font-weight: 400;
+    letter-spacing: 0.07em
 }
 
 a {
     color: #000000;
     transition: 0.3s;
+    letter-spacing: 0.07em
 }
 
 @media (any-hover: hover) {
@@ -166,7 +168,7 @@ input:focus-visible {
     background-color: transparent;
     font-size: 2.5rem;
     line-height: 1.5;
-    /* padding: 2.0rem 2.0rem; !!!Переделать */
+    padding: 5px 15px;
     text-transform: uppercase;
     border: 3px solid #000;
     display: inline-flex;
@@ -180,7 +182,7 @@ input:focus-visible {
 @media (any-hover: hover) {
     .btn:hover {
         text-decoration: none;
-        border: none;
+        border-color: #1596C1;
         color: #FFF;
         background-color: #1596C1;
     }
@@ -217,6 +219,24 @@ input:focus-visible {
 
 .color-accent {
     color: #FFFFFF;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.menu-open.menu-overlay {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* -------------------------------------------
