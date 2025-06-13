@@ -1,3 +1,28 @@
-* {
-    color: red;
+.description {}
+
+.description__container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.description__cell {}
+
+.description__cell_with_image {
+    background: no-repeat center / cover;
+}
+
+.description__cell_with_text {
+    text-align: center;
+    background-color: #1596C1;
+    padding: 60px 110px;
+}
+
+.description__cell-title {
+    display: inline-block;
+    margin: 0;
+}
+
+.description__cell-text {
+    margin: 50px 0 0;
 }

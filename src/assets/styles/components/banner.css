@@ -8,7 +8,6 @@
 .container {}
 
 .banner__title {
-    text-transform: uppercase;
     width: 55%;
     margin: 50px 0 70px;
 }
