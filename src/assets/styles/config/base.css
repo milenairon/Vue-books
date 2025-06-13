@@ -133,11 +133,6 @@ input:focus-visible {
     position: relative;
 }
 
-/* !!! .container_vertical {
-  display: flex;
-  flex-direction: column;
-} */
-
 .text {
     color: #000000;
     font-size: 2rem;

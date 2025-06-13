@@ -29,10 +29,6 @@ export default {
       appForm: Form,
       appFooter: Footer,
     },
-    // data() {    
-    // },
-    // methods: {
-    // }
 }
 </script>
 
