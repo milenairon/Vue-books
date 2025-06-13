@@ -21,6 +21,7 @@
 @media (any-hover: hover) {
     .header__logo:hover svg path {
         fill: #000;
+        transition: 0.3s;
     }
 }
 
@@ -33,13 +34,10 @@
     width: fit-content;
 }
 
-.header__burger:hover svg path {
-    fill: #000;
-}
-
 @media (any-hover: hover) {
     .header__burger:hover svg path {
         fill: #000;
+        transition: 0.3s;
     }
 }
 
@@ -52,11 +50,13 @@
 
 .header__burger_active svg path {
     fill: #000;
+    transition: 0.3s;
 }
 
 @media (any-hover: hover) {
     .header__burger_active:hover svg path {
         fill: #1596C1;
+        transition: 0.3s;
     }
 }
 
@@ -67,6 +67,7 @@
 @media (any-hover: hover) {
     .header__basket:hover svg path {
         fill: #000;
+        transition: 0.3s;
     }
 }
 

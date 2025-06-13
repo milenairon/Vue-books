@@ -55,7 +55,7 @@ export default {
       this.isSubmitting = true;
       try {
         // Дальнейшие улучшения кода: отправка данных на сервер (fetch или axios)
-        // console.log("Отправка email:", this.email);
+        console.log("Отправка email:", this.email);
 
         // Имитация отправки данных
         await new Promise((resolve) => setTimeout(resolve, 1000));
