@@ -64,7 +64,7 @@ export default {
         this.email = "";
       } catch (error) {
         console.error("Ошибка при отправке:", error);
-        alert("Произошла ошибка при отправке. Попробуйте?, пожалуйста, позже.");
+        alert("Произошла ошибка при отправке. Попробуйте, пожалуйста, позже.");
       } finally {
         this.isSubmitting = false;
       }
