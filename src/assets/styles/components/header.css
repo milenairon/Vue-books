@@ -175,33 +175,17 @@
 
 /* ------------------------------------------------------------------------------------------------- */
 @media (max-width: 640px) {
-    .header {
-        /* padding: 5px 0; */
-    }
-
     .header__logo {
         width: 90px;
     }
 
     .header__burger {
-        /* top: 10px; */
         width: 40px !important;
         left: calc(50% - 0/2);
     }
 
-    .header__basket {
-        /* margin-right: 0; */
-    }
-
     .header__basket svg {
         width: 34px;
-    }
-
-    .header__count-book {
-        /* padding: 0;
-        font-size: 14px;
-        width: 20px;
-        height: 20px; */
     }
 
     .header__burger-menu {
@@ -209,15 +193,7 @@
         width: 320px;
     }
 
-    .header__burger-menu-content {
-        /* padding: 70px; */
-    }
-
     .header__burger-menu-items {
         gap: 50px;
     }
-
-    .header__burger-menu-item {}
-
-    .header__burger-menu-link {}
 }

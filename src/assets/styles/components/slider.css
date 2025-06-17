@@ -1,7 +1,6 @@
 .slider {}
 
 .slider__container {
-    /* max-width: calc(1300px + 15px*2); */
 }
 
 .slider__title {
@@ -191,7 +190,6 @@
     }
 
     .slider__slide {
-        /* flex: 0 0 calc(100% - 10px); */
         padding: 25px;
         gap: 40px;
     }
@@ -212,8 +210,6 @@
 
     .slider__navigation {
         position: static;
-        /* top: calc(50% + 15px/2); */
-        /* left: 135px; */
         width: 100%;
         margin: 40px 0 0;
         display: flex;
