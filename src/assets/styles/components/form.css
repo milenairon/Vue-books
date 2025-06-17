@@ -40,3 +40,69 @@
     height: 60px;
     width: 310px;
 }
+
+/* ------------------------------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
+    .form {}
+
+    .form__container {
+        gap: 20px;
+    }
+
+    .form__form {
+        margin-top: 3rem;
+    }
+
+    .form__input {
+        height: 50px;
+        max-width: 400px;
+    }
+
+    .form__button {
+        height: 50px;
+        width: 160px;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+    .form {}
+
+    .form__container {
+        gap: 10px;
+    }
+
+    .form__title {
+        font-size: 30px;
+    }
+
+
+    .form__subtitle {
+        text-align: center;
+    }
+
+    .form__form {
+        width: 100%;
+    }
+
+    .form__box {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .form__input {
+        width: 100%;
+    }
+
+    .form__button {
+        width: 190px;
+    }
+
+    .form__error-message {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+}

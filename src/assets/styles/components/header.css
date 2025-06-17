@@ -50,7 +50,6 @@
 
 .header__burger.menu-open {
     transform: rotate(180deg);
-    margin-bottom: 60px;
 }
 
 
@@ -67,6 +66,8 @@
 .header__basket {
     flex: 0 0 auto;
     margin-right: 5px;
+    display: flex;
+    align-items: end;
 }
 
 @media (any-hover: hover) {
@@ -77,9 +78,16 @@
 }
 
 .header__count-book {
-    padding: 0 15px 8px;
     background-color: red;
     border-radius: 50%;
+    padding: 0;
+    line-height: 1;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__burger-menu {
@@ -115,3 +123,101 @@
 .header__burger-menu-item {}
 
 .header__burger-menu-link {}
+
+/* ------------------------------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
+    .header {
+        padding: 5px 0;
+    }
+
+    .header__logo {
+        width: 120px;
+    }
+
+    .header__burger {
+        top: 10px;
+        width: 32px !important;
+        left: calc(50% - 32px/2);
+    }
+
+    .header__basket {
+        margin-right: 0;
+    }
+
+    .header__basket svg {
+        width: 27px;
+    }
+
+    .header__count-book {
+        padding: 0;
+        font-size: 14px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .header__burger-menu {
+        right: calc(50% - 340px/2);
+        width: 340px;
+    }
+
+    .header__burger-menu-content {
+        padding: 70px;
+    }
+
+    .header__burger-menu-items {
+        gap: 45px;
+    }
+
+    .header__burger-menu-item {}
+
+    .header__burger-menu-link {}
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+    .header {
+        /* padding: 5px 0; */
+    }
+
+    .header__logo {
+        width: 90px;
+    }
+
+    .header__burger {
+        /* top: 10px; */
+        width: 40px !important;
+        left: calc(50% - 0/2);
+    }
+
+    .header__basket {
+        /* margin-right: 0; */
+    }
+
+    .header__basket svg {
+        width: 34px;
+    }
+
+    .header__count-book {
+        /* padding: 0;
+        font-size: 14px;
+        width: 20px;
+        height: 20px; */
+    }
+
+    .header__burger-menu {
+        right: calc(50% - 320px/2);
+        width: 320px;
+    }
+
+    .header__burger-menu-content {
+        /* padding: 70px; */
+    }
+
+    .header__burger-menu-items {
+        gap: 50px;
+    }
+
+    .header__burger-menu-item {}
+
+    .header__burger-menu-link {}
+}

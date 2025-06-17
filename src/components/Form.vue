@@ -1,6 +1,6 @@
 <template>
   <section class="form">
-    <div class="form__container">
+    <div class="form__container container">
       <h2 class="form__title text text_l">Хотите знать о книгах всё?</h2>
       <p class="form__subtitle text">Подпишитесь на нашу новостную рассылку</p>
       <form class="form__form" @submit.prevent="handleSubmit" novalidate>

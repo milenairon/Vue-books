@@ -7,7 +7,7 @@
                     <img src="../assets/images/icons/logo.svg" alt="Книги для олимпийцев" class="footer__logo-icon" uk-svg />
                 </a>
 
-                <a href="tel:+30922040281" class="footer__logo link text color-accent">+30922040281</a>
+                <a href="tel:+30922040281" class="footer__number link text color-accent">+30922040281</a>
             </div>
 
 
